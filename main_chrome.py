@@ -3,7 +3,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import colorama, time, os, ugents
-import pythread as ptr
 from os import remove, listdir, makedirs
 from os.path import isdir, exists
 from time import sleep
@@ -16,8 +15,6 @@ from random import randint as ri
 import selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-
-message = 'sps'
 
 colorama.init()
 
